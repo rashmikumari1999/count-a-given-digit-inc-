@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+main()
+{
+    int count=0, x;
+    cout<<"enter a digit";
+    cin>>x;
+    while(x !=0)
+    {
+        x=x/10;
+        count++;
+    }
+    cout<<"total digit"<<count;
+    return 0;
+}
